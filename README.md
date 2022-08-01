@@ -7,4 +7,5 @@ Made by DuckyBlender (C, Python) and RilaxYT
 Current speeds (will add exact results later):
 1. C
 2. C#
-3. Python
+4. Java
+4. Python
