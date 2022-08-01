@@ -20,6 +20,6 @@ public class Main {
 
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
-        System.out.println("End! This took " + (double) elapsedTime/1000 + "s");
+        System.out.println("End! This took " + (double) elapsedTime/1000 + " seconds");
     }
 }
