@@ -32,6 +32,6 @@ class Program
         }
 
         stopwatch.Stop();
-        Console.WriteLine("End! This took " + (double)stopwatch.ElapsedMilliseconds / 1000 + "seconds!");
+        Console.WriteLine("End! This took " + (double)stopwatch.ElapsedMilliseconds / 1000 + " seconds!");
     }
 }
