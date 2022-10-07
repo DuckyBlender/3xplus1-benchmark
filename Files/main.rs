@@ -1,9 +1,9 @@
 // First time writing in rust
 
-//use std::{thread, time};
-
 fn main() {
     println!("Start!");
+    use std::time::Instant;
+    let now = Instant::now();
     let mut num: u64;
 
     for i in 1..1000001 {
@@ -18,9 +18,8 @@ fn main() {
 //                println!("Did 3x+1! {}", num);
             }
         }
-//        thread::sleep(time::Duration::from_secs(1));
+        //std::thread::sleep(std::time::Duration::from_secs(1));
     }
-    println!("End!");
+    let elapsed = now.elapsed();
+    println!("End! This took {:.5?} seconds!", elapsed);
 }
-
-// TODO: Count time
